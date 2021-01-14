@@ -1,0 +1,324 @@
+/* Fonts */
+/* font-family: 'Big Shoulders Stencil Text', cursive;
+font-family: 'Raleway', sans-serif; */
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid #f00 !important;
+  } */
+
+/* ------------------------ HTML Section Start --------------------- */
+/* ------------------------ HTML Section Start --------------------- */
+/* ------------------------ HTML Section Start --------------------- */
+/* ------------------------ HTML Section Start --------------------- */
+/* ------------------------ HTML Section Start --------------------- */
+/* ------------------------ HTML Section Start --------------------- */
+a{
+    color: #fffafa;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1182D9;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: #1182D9;
+}
+
+body{
+    background-color: #fffafa;
+    color: #0B5085;
+    font-family: "Raleway", sans-serif;
+}
+
+.col-md-4{
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2{
+    padding-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3,h4{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    padding: 75px 25px 15;
+}
+
+/* --- HTML Section End --- */
+/* --- HTML Section End --- */
+/* --- HTML Section End --- */
+/* --- HTML Section End --- */
+/* --- HTML Section End --- */
+/* --- HTML Section End --- */
+
+/* ------------------------ Navbar Specific Section Start --------------------- */
+/* ------------------------ Navbar Specific Section Start --------------------- */
+/* ------------------------ Navbar Specific Section Start --------------------- */
+/* ------------------------ Navbar Specific Section Start --------------------- */
+/* ------------------------ Navbar Specific Section Start --------------------- */
+/* ------------------------ Navbar Specific Section Start --------------------- */
+
+.my-nav-bar{
+    background-color: #000000;
+}
+
+.toggler-icon-setting{
+    color: #fffafa;
+    font-size: 1.5rem;
+}
+
+/* --- Navbar Section End --- */
+/* --- Navbar Section End --- */
+/* --- Navbar Section End --- */
+/* --- Navbar Section End --- */
+/* --- Navbar Section End --- */
+/* --- Navbar Section End --- */
+
+/* ------------------------ Welcome Specific Section Start --------------------- */
+/* ------------------------ Welcome Specific Section Start --------------------- */
+/* ------------------------ Welcome Specific Section Start --------------------- */
+/* ------------------------ Welcome Specific Section Start --------------------- */
+/* ------------------------ Welcome Specific Section Start --------------------- */
+/* ------------------------ Welcome Specific Section Start --------------------- */
+
+.welcomeDiv{
+    padding-top: 125px;
+}
+
+#Welcome {
+    background-image: -webkit-linear-gradient(90deg,#0B5085,#00002E,#00002E,#00002E,#0B5085),url("images/cubes.png");
+   color: #fffafa;
+    min-height: 500px;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* --- Welcome Section End ---*/
+/* --- Welcome Section End ---*/
+/* --- Welcome Section End ---*/
+/* --- Welcome Section End ---*/
+/* --- Welcome Section End ---*/
+/* --- Welcome Section End ---*/
+
+/* ------------------------ SKILLS Specific Section Start --------------------- */
+/* ------------------------ SKILLS Specific Section Start --------------------- */
+/* ------------------------ SKILLS Specific Section Start --------------------- */
+/* ------------------------ SKILLS Specific Section Start --------------------- */
+/* ------------------------ SKILLS Specific Section Start --------------------- */
+/* ------------------------ SKILLS Specific Section Start --------------------- */
+#Skills{
+    padding-bottom: 100px;
+}
+
+
+.card{
+    background-image: -webkit-linear-gradient(90deg,#060B45,#00002E,#00002E,#00002E,#060B45);
+    border-color: #073354;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    margin-left: auto;/*this fixed the centering the tiles in mobile view problem */
+    margin-right: auto;
+    perspective: 1000px;/* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: transform 1.1s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-image: -webkit-linear-gradient(90deg,#0B5085,#00002E,#00002E,#00002E,#0B5085);
+    /* background-color:#062f4f; */
+    color: #fffafa;
+    font-size: 10rem;
+    padding-top: 1.5rem;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-image: -webkit-linear-gradient(90deg,#0B5085,#00002E,#00002E,#00002E,#0B5085);
+    color: white;
+    transform: rotateY(180deg);
+    padding: 1.5rem .5rem;
+  }
+
+/* --- SKILLS Specific Section End ---*/
+/* --- SKILLS Specific Section End ---*/
+/* --- SKILLS Specific Section End ---*/
+/* --- SKILLS Specific Section End ---*/
+/* --- SKILLS Specific Section End ---*/
+/* --- SKILLS Specific Section End ---*/
+
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+
+#Experience{
+    background-color:#062f4f;
+    background-image: -webkit-linear-gradient(90deg,#0B5085,#00002E,#00002E,#00002E,#0B5085);
+    color: #fffafa;
+}
+
+/* accordion */
+.accordion{
+    padding: 5px 0 30px;
+}
+
+/* accordion */
+.contactContainer{
+    padding: 0 0 75px;
+}
+
+.btn-txt{
+    color:#fffafa;
+}
+
+/* --- Experience Specific Section End --- */
+/* --- Experience Specific Section End --- */
+/* --- Experience Specific Section End --- */
+/* --- Experience Specific Section End --- */
+/* --- Experience Specific Section End --- */
+/* --- Experience Specific Section End --- */
+
+/* ------------------------ Proj and Certs Specific Section Start ------------------ */
+/* ------------------------ Proj and Certs Specific Section Start ------------------ */
+/* ------------------------ Proj and Certs Specific Section Start ------------------ */
+/* ------------------------ Proj and Certs Specific Section Start ------------------ */
+/* ------------------------ Proj and Certs Specific Section Start ------------------ */
+/* ------------------------ Proj and Certs Specific Section Start ------------------ */
+
+.media{
+    padding: 20px 0 20px;
+}
+
+.certContainer{
+    padding:20px 0 10px;
+}
+
+.certContent{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.AWSCertIcon{
+    width: 150px;
+    height: 150px;
+}
+
+.ITILCertIcon{
+    width: 160px;
+    height: 90px;
+}
+
+.securityCertIcon{
+    width: 150px;
+    height: 150px;
+}
+
+/* --- Proj and Certs Specific Section End --- */
+/* --- Proj and Certs Specific Section End --- */
+/* --- Proj and Certs Specific Section End --- */
+/* --- Proj and Certs Specific Section End --- */
+/* --- Proj and Certs Specific Section End --- */
+/* --- Proj and Certs Specific Section End --- */
+
+/* ------------------------ Contact Specific Section Start ------------------ */
+/* ------------------------ Contact Specific Section Start ------------------ */
+/* ------------------------ Contact Specific Section Start ------------------ */
+/* ------------------------ Contact Specific Section Start ------------------ */
+/* ------------------------ Contact Specific Section Start ------------------ */
+/* ------------------------ Contact Specific Section Start ------------------ */
+
+#Contact{
+    background-image: -webkit-linear-gradient(90deg,#0B5085,#00002E,#00002E,#00002E,#0B5085);
+    color: #fffafa;
+    margin: 0;
+}
+
+.contactMedia{
+    text-align: center;
+}
+
+.mediaLinkContainer{
+    padding:0 0 20px;
+}
+
+/* --- Contact Specific Section End --- */
+/* --- Contact Specific Section End --- */
+/* --- Contact Specific Section End --- */
+/* --- Contact Specific Section End --- */
+/* --- Contact Specific Section End --- */
+/* --- Contact Specific Section End --- */
+
+/* ------------------------ Footer Specific Section Start ------------------ */
+/* ------------------------ Footer Specific Section Start ------------------ */
+/* ------------------------ Footer Specific Section Start ------------------ */
+/* ------------------------ Footer Specific Section Start ------------------ */
+/* ------------------------ Footer Specific Section Start ------------------ */
+/* ------------------------ Footer Specific Section Start ------------------ */
+
+footer{
+    background-color:  #000000;
+    color: snow;
+    padding: 15px 15px;
+    margin: 0;
+    text-align: center;
+}
+
+/* --- Footer Specific Section End --- */
+/* --- Footer Specific Section End --- */
+/* --- Footer Specific Section End --- */
+/* --- Footer Specific Section End --- */
+/* --- Footer Specific Section End --- */
+/* --- Footer Specific Section End --- */
+
+
+
+
+
+
+
