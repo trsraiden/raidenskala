@@ -13,10 +13,12 @@
     <script src="https://kit.fontawesome.com/280dd44db5.js" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
-    <style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Serif&family=Raleway&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- <style>
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&&family=Raleway&display=swap');
     </style>
-
+ -->
     <!-- My CSS -->
     <link rel="stylesheet" href="css/styles.css">
     
@@ -37,20 +39,29 @@
 
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#Skills">Skills</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#Education">Education</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#Experience">Experience</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Projects">Projects and Certifications</a>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#Projects">Projects</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#Certifications">Certifications</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#Contact">Contact</a>
                 </li>
             </ul>
         </div>
+        <!-- <div class="alert alert-success" role="alert`">
+            <%= sentStatus %>
+        </div> -->
     </nav>
 </header>
 

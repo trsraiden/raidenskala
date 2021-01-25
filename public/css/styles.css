@@ -1,13 +1,5 @@
 /* Fonts */
-/* font-family: 'Big Shoulders Stencil Text', cursive;
-font-family: 'Raleway', sans-serif; */
-
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    border: 1px solid #f00 !important;
-  } */
+/* font-family: 'Raleway', sans-serif;  */
 
 /* ------------------------ HTML Section Start --------------------- */
 /* ------------------------ HTML Section Start --------------------- */
@@ -190,14 +182,14 @@ section {
 /* --- SKILLS Specific Section End ---*/
 /* --- SKILLS Specific Section End ---*/
 
-/* ------------------------ Experience Specific Section Start ------------------ */
-/* ------------------------ Experience Specific Section Start ------------------ */
-/* ------------------------ Experience Specific Section Start ------------------ */
-/* ------------------------ Experience Specific Section Start ------------------ */
-/* ------------------------ Experience Specific Section Start ------------------ */
-/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Education Specific Section Start ------------------ */
+/* ------------------------ Education Specific Section Start ------------------ */
+/* ------------------------ Education Specific Section Start ------------------ */
+/* ------------------------ Education Specific Section Start ------------------ */
+/* ------------------------ Education Specific Section Start ------------------ */
+/* ------------------------ Education Specific Section Start ------------------ */
 
-#Experience{
+#Education{
     background-color:#062f4f;
     background-image: -webkit-linear-gradient(90deg,#0B5085,#00002E,#00002E,#00002E,#0B5085);
     color: #fffafa;
@@ -206,6 +198,41 @@ section {
 /* accordion */
 .accordion{
     padding: 5px 0 30px;
+}
+
+/* accordion */
+.contactContainer{
+    padding: 0 0 75px;
+}
+
+.btn-txt{
+    color:#fffafa;
+}
+
+/* --- Education Specific Section End --- */
+/* --- Education Specific Section End --- */
+/* --- Education Specific Section End --- */
+/* --- Education Specific Section End --- */
+/* --- Education Specific Section End --- */
+/* --- Education Specific Section End --- */
+
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+/* ------------------------ Experience Specific Section Start ------------------ */
+
+/* #Experience{
+    background-color:#062f4f;
+    background-image: -webkit-linear-gradient(90deg,#0B5085,#00002E,#00002E,#00002E,#0B5085);
+    color: #fffafa;
+} */
+
+/* accordion */
+.accordion{
+    padding: 5px 0 30px;
+    color: #fffafa;
 }
 
 /* accordion */
@@ -231,12 +258,68 @@ section {
 /* ------------------------ Proj and Certs Specific Section Start ------------------ */
 /* ------------------------ Proj and Certs Specific Section Start ------------------ */
 
+#Projects{
+    background-color:#062f4f;
+    background-image: -webkit-linear-gradient(90deg,#0B5085,#00002E,#00002E,#00002E,#0B5085);
+    color: #fffafa;
+}
+
 .media{
     padding: 20px 0 20px;
 }
 
 .certContainer{
-    padding:20px 0 10px;
+    padding: 0 0 10px;
+}
+
+/* .projectContainer{
+    padding: 0 0 30px;
+} */
+
+.xersizeDiv{
+    padding-bottom: 30px;
+}
+
+.xersize{
+    color: #ffffff;
+    text-shadow: -3px 1px 4px #6df0f5,-5px 2px 3px #00eb4d, -7px 4px 2px #D11C1C;
+    background-color: #000000;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.2rem;
+    padding: 15px;
+    text-align: center;
+    border-radius: .25rem;
+    width:135px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search4weatherDiv{
+    color:#000000;
+    padding-bottom: 30px;
+}
+
+.search4weather{
+    background-color: #30d6db;
+    font-family: 'Noto Serif', serif;
+    font-size: .9rem;
+    padding:20px 0;
+    text-align: center;
+    border-radius: .25rem;
+    width:135px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectContent{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 30px;
+}
+
+.certImage{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .certContent{
@@ -252,6 +335,9 @@ section {
 .ITILCertIcon{
     width: 160px;
     height: 90px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 .securityCertIcon{
@@ -283,8 +369,12 @@ section {
     text-align: center;
 }
 
-.mediaLinkContainer{
-    padding:0 0 20px;
+.mediaContainer{
+    margin-bottom: 20px;
+}
+
+.contactMe{
+    margin-bottom: 20px;
 }
 
 /* --- Contact Specific Section End --- */
