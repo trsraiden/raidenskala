@@ -24,7 +24,7 @@ app.use(express.static("public"));
 
 app.get("/", (req,res) =>{
     const currentYear = new Date().getFullYear();
-    const sentStatus = "I'm a fullstack developer who is passionate about using technology to solve problems."
+    const sentStatus = "an aspiring fullstack developer who is passionate about using technology to solve problems."
     res.render("index", {currentYear:currentYear, sentStatus:sentStatus});
 })
 

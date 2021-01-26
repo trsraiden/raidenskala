@@ -87,8 +87,20 @@ section {
 /* ------------------------ Welcome Specific Section Start --------------------- */
 /* ------------------------ Welcome Specific Section Start --------------------- */
 
+.profileDiv{
+    margin-bottom: 10px;
+}
+
+.profilePic{
+    width:250px;
+    height:250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #000000;
+}
+
 .welcomeDiv{
-    padding-top: 125px;
+    padding-top: 25px;
 }
 
 #Welcome {
