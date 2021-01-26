@@ -34,16 +34,16 @@ body{
 }
 
 h1{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 
 h2{
     padding-bottom: 30px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 
 h3,h4{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Noto Serif', serif;
 }
 
 section {
@@ -285,11 +285,7 @@ section {
     padding: 0 0 10px;
 }
 
-/* .projectContainer{
-    padding: 0 0 30px;
-} */
-
-.xersizeDiv{
+.projectIconDiv{
     padding-bottom: 30px;
 }
 
@@ -307,13 +303,9 @@ section {
     margin-right: auto;
 }
 
-.search4weatherDiv{
-    color:#000000;
-    padding-bottom: 30px;
-}
-
 .search4weather{
     background-color: #30d6db;
+    color:#000000;
     font-family: 'Noto Serif', serif;
     font-size: .8rem;
     padding:20px 0;
