@@ -24,7 +24,7 @@ app.use(express.static("public"));
 
 app.get("/", (req,res) =>{
     const currentYear = new Date().getFullYear();
-    const sentStatus = "an aspiring full stack developer who is passionate about using technology to solve problems."
+    const sentStatus = "an engineer who is passionate about using technology to improve security and efficiency."
     res.render("index", {currentYear:currentYear, sentStatus:sentStatus});
 })
 
@@ -45,10 +45,6 @@ app.post("/messageSent", (req,res) =>{
     newMessage.save()
     .then(()=>res.render("index", {currentYear:currentYear, sentStatus:success}))
     .catch(() => res.render("index", {currentYear:currentYear, sentStatus:fail}));
-
-    // newMessage.save()
-    //     .then(()=>res.render("index", {currentYear:currentYear, sentStatus:"Success"}))
-    //     .catch(() => res.render("index", {currentYear:currentYear, sentStatus:"Failed"}));
 })
 
 app.listen(port, () =>{
